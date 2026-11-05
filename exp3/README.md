@@ -13,10 +13,11 @@
 ```
 .
 ├── image_stitching.py     # 主程序（完整可运行）
-├── left.png               # 输入：左视图
-├── right.png              # 输入：右视图
-├── matched_keypoints.png  # SIFT 特征匹配可视化
-├── stitched_result.png    # 拼接后全景图
+├── images/
+│   ├── left.png           # 输入：左视图
+│   ├── right.png          # 输入：右视图
+│   ├── matched_keypoints.png  # SIFT 特征匹配可视化
+│   └── stitched_result.png    # 拼接后全景图
 ├── 实验三.md              # 完整实验报告（原理 / 代码 / 结果分析）
 └── README.md
 ```
