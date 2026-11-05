@@ -6,7 +6,7 @@
 
 | 输入左图 | 输入右图 | 拼接结果 |
 |:---:|:---:|:---:|
-| ![left](left.png) | ![right](right.png) | ![stitched](stitched_result.png) |
+| ![left](images/left.png) | ![right](images/right.png) | ![stitched](images/stitched_result.png) |
 
 ## 目录结构
 
