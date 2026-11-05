@@ -40,4 +40,3 @@ print(torch.backends.cudnn.is_available())
 - 独立虚拟环境可以解决不同项目包版本冲突
 - `nvidia-smi` 查看驱动支持的最高CUDA版本
 - 输出两个True代表GPU加速环境配置成功
-```
