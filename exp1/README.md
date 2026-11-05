@@ -41,4 +41,3 @@ print(torch.backends.cudnn.is_available())
 - `nvidia-smi` 查看驱动支持的最高CUDA版本
 - 输出两个True代表GPU加速环境配置成功
 ```
-
