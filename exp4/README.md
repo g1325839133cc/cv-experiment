@@ -6,7 +6,7 @@
 
 | 训练曲线 | 混淆矩阵 | 错分样例 |
 |:---:|:---:|:---:|
-| ![loss](results/loss_acc_curve.png) | ![cm](results/confusion_matrix.png) | ![wrong](results/misclassified.png) |
+| ![loss](images/loss_acc_curve.png) | ![cm](images/confusion_matrix.png) | ![wrong](images/misclassified.png) |
 
 ## 目录结构
 
@@ -61,4 +61,4 @@ python mlp_mnist.py
 
 准确率最低的是数字 5（66.93%，主要被误判为 3 和 8），4 与 9 存在双向混淆。原因是全连接层把图像拉平后丢失了空间结构，对书写变形不鲁棒。
 
-详细原理、代码注释与结果分析见 [实验四实验报告.md](实验四实验报告.md)。
+详细原理、代码注释与结果分析见 [实验四.md](实验四.md)。
