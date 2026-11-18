@@ -13,7 +13,7 @@
 ```
 .
 ├── mlp_mnist.py           # 主程序（完整可运行）
-├── results/
+├── images/
 │   ├── dataset_samples.png    # 数据集样例（0~9 各一例 + 随机 6 例）
 │   ├── network_structure.png  # 网络结构示意图
 │   ├── loss_acc_curve.png     # 训练/测试 loss 与准确率曲线
@@ -22,7 +22,6 @@
 │   ├── misclassified.png      # 错分样例
 │   ├── history.json           # 每轮 loss / accuracy 记录
 │   └── mlp_mnist.pt           # 模型权重（运行后生成，未入库）
-├── data/                      # MNIST 数据集（首次运行自动下载，未入库）
 ├── 实验四实验报告.md       # 完整实验报告（原理 / 结果 / 分析）
 └── README.md
 ```
